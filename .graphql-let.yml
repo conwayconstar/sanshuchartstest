@@ -1,4 +1,4 @@
-schema: '**/*.graphqls'
+schema: 'https://api.thegraph.com/subgraphs/name/sanshuinudev/dex-candles'
 documents: '**/*.graphql'
 plugins:
   - typescript-operations

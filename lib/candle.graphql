@@ -1,0 +1,15 @@
+
+
+subscription PairCandles($pair: String! $period: Int! )
+{
+    candles(where: {pair: $pair, period: $period }) {
+        id
+        time
+        pair
+        open
+        close
+        low
+        high
+
+    }
+}

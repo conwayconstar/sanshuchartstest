@@ -1,0 +1,18 @@
+{
+  "name": "SanshuInu Subgraph GraphQL Schema",
+  "schemaPath": "schema.graphqls",
+  "extensions": {
+    "endpoints": {
+      "Dex Candles": {
+        "url": "https://api.thegraph.com/subgraphs/name/sanshuinudev/dex-candles",
+        "subscription": {
+          "url": "wss://api.thegraph.com/subgraphs/name/sanshuinudev/dex-candles"
+        },
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
