@@ -38,7 +38,6 @@ const Index = () => {
     const {loading, data} = usePairCandlesSubscription({
         variables: {
             pair: "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
-            time: Math.trunc(yeartime / 1000),
             period: 60 * 60
         }
     })
